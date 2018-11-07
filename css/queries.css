@@ -1,0 +1,77 @@
+/* Smartphones (вертикальная и горизонтальная ориентация) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+/* стили */
+}
+
+/* Smartphones (горизонтальная) ----------- */
+@media only screen and (min-width: 321px) {
+/* стили */
+}
+
+
+
+/* tablets (my size)  */
+@media only screen and (max-width: 768px)
+ {
+/* стили */
+.container {
+	width: 720px;
+}
+.slider {
+  width: 700px;
+  height: 380px;
+}
+#mySwipe {
+  width: 700px;
+  height: 380px;
+  margin: 0 auto;
+}
+.butslider {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 auto;
+    width: 680px;
+    margin-top: -30%; 
+}
+.item img {
+	width: 100%;
+}
+.line {
+	width: 600px;
+}
+}
+
+/* Smartphones (my size)  */
+@media only screen and (max-width: 640px)
+ {
+/* стили */
+.container {
+	width: 100%;
+}
+.navmenu {
+	display: none;
+}
+.butmenu {
+	display: block;
+}
+.slider {
+  width: 100%;
+  height: 380px;
+}
+#mySwipe {
+  width: 100%;
+  height: 380px;
+  margin: 0 auto;
+}
+.butslider {
+	display: none;
+}
+.item img {
+	width: 100%;
+}
+.line {
+	width: 600px;
+}
+}
