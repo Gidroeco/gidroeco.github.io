@@ -56,6 +56,24 @@
 .butmenu {
 	display: block;
 }
+
+
+
+
+.aboutitem_img {
+	display: none;
+}
+.services_manicure img {
+	display: none;
+}
+.services_pedicure img {
+	display: none;
+}
+
+
+
+
+
 .slider {
   width: 100%;
   height: 380px;
