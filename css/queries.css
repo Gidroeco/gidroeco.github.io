@@ -50,25 +50,62 @@
 .container {
 	width: 100%;
 }
+.logotxt {
+	display: none;
+}
+.logo {
+	margin-left: 10%;
+}
 .navmenu {
 	display: none;
 }
 .butmenu {
 	display: block;
 }
-
-
-
-
-.aboutitem_img {
-	display: none;
+.aboutitem {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 65px;
+}
+.aboutitem img {
+	display: block;
+	margin: 0 auto;
+}
+.services_manicure {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 .services_manicure img {
-	display: none;
+	display: block;
+	margin: 0 auto;
+	width: 60%;
+	height: 60%;
+}
+.services_pedicure {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 .services_pedicure img {
-	display: none;
+	display: block;
+	margin: 0 auto;
+	width: 350px;
+	height: 350px;
 }
+.gallery {
+	margin-top: 1px;
+}
+
+
+
 
 
 
