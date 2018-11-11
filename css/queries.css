@@ -68,6 +68,9 @@ body {
 .butmenu {
 	display: block;
 }
+.maintitle {
+	font-size: 1.8rem;
+}
 .aboutitem {
 	display: flex;
 	display: -webkit-flex;
@@ -79,6 +82,9 @@ body {
 .aboutitem img {
 	display: block;
 	margin: 0 auto;
+}
+.aboutitem_text p {
+	font-size: 12px;
 }
 .services_manicure {
 	display: flex;
