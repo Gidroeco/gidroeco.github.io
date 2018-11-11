@@ -88,7 +88,17 @@ ol, ul {
 }
 .bgimg {
 	background: url(../img/gidro_bg.jpeg) no-repeat  center / cover;
-	height: 90vh;
+	height: 60vh;
+	padding-top: 30vh;
+}
+.maintitle {
+	color: #fff;
+	text-shadow:
+			-1px -1px 0 #000,
+			1px -1px 0 #000,
+			-1px 1px 0 #000,
+			1px 1px 0 #000;
+	margin: 0 auto;
 }
 #about {
 	padding-top: 1px;
