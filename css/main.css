@@ -26,6 +26,10 @@ body {
 ol, ul {
 	list-style: none;
 }
+@font-face {
+	font-family: 'ptc55f';
+	src: url('../fonts/ptc55f.ttf');
+}
 .container {
 	width: 960px;
 	margin: 0 auto;
@@ -133,7 +137,9 @@ h3 {
 	width: 380px;
 }
 .aboutitem_text p {
-	font-size: 19px;
+	font-family: ptc55f;
+	font-size: 18px;
+	line-height: 1.4rem;
 	text-indent: 10px;
 	color: #000;
 	text-align: center;
@@ -154,9 +160,12 @@ h3 {
 }
 .services_manictxt {
 	width: 380px;
+	margin-right: 30px;
 }
 .services p {
-	font-size: 19px;
+	font-family: ptc55f;
+	font-size: 18px;
+	line-height: 1.4rem;
 	text-indent: 10px;
 	color: #000;
 	text-align: center;
@@ -172,9 +181,9 @@ h2 {
 	margin-top: 10px;
 }
 .manic {
-	width: 400px;
-	height: 400px;
-	margin-right: 35px;
+	width: 320px;
+	height: 320px;
+	margin-left: 35px;
 }
 .services_pedicure {
 	display: flex;
@@ -190,6 +199,7 @@ h2 {
 }
 .services_pedicuretxt {
 	width: 380px;
+	margin-right: 30px;
 }
 .line {
 	width: 850px;
