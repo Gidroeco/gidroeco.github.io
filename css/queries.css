@@ -48,9 +48,7 @@
 @media only screen and (max-width: 768px)
  {
 /* стили */
-body {
-	max-width: 100%;
-}
+
 .container {
 	max-width: 100%;
 }
