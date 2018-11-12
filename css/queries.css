@@ -50,8 +50,7 @@
 /* стили */
 
 .container {
-	max-width: 768px;
-	min-width: 350px;
+	max-width: 320px;
 }
 .logotxt {
 	display: none;
