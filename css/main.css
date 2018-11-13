@@ -1,0 +1,378 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	background: #eaeaea;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+@font-face {
+	font-family: 'ptc55f';
+	src: url('../fonts/ptc55f.ttf');
+}
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+.logomenu {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+.logo {
+	display: flex;
+}
+.logo img {
+	width: 60px;
+	height: 40px;
+}
+.logotxt {
+	font-family: arial;
+	color: blue;
+	text-transform: uppercase;
+	font-size: 26px;
+	font-weight: bold;
+	margin-left: 10px;
+	padding-top: 3%;
+} 
+.menu {
+	width: 320px;
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 15px;
+}
+.menu a {
+	font-family: arial;
+	font-size: 18px;
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+}
+.menu a:hover {
+	color: #888;
+}
+.butmenu {
+	display: none;
+	background: #eaeaea;
+	width: 32px;
+	height: 28px;
+	margin-top: 10px;
+	margin-right: 5%;
+}
+.lan {
+	width: 25px;
+	height: 2px;
+	background: #000;
+	margin: 5px auto;
+}
+.bgimg {
+	background: url(../img/gidro_bg.jpeg) no-repeat  center / cover;
+	height: 60vh;
+	padding-top: 30vh;
+}
+.maintitle {
+	color: #fff;
+	text-shadow:
+			-1px -1px 0 #000,
+			1px -1px 0 #000,
+			-1px 1px 0 #000,
+			1px 1px 0 #000;
+	margin: 0 auto;
+}
+#about {
+	padding-top: 1px;
+}
+h1 {
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: arial;
+	font-size: 36px;
+	text-align: center;
+	margin-top: 40px;
+}
+h3 {
+	color: #000;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 28px;
+	text-align: center;
+	margin-top: 24px;
+}
+.aboutitem {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 65px;
+}
+.aboutitem_img {
+	margin: 0;
+	width: 320px;
+	height: 320px;
+	margin-left: 35px;
+}
+.aboutitem_text {
+	width: 380px;
+}
+.aboutitem_text p {
+	font-family: ptc55f;
+	font-size: 18px;
+	line-height: 1.4rem;
+	text-indent: 10px;
+	color: #000;
+	text-align: center;
+	margin-top: 12%;
+}
+.services {
+	background: #faf3f1;
+	margin-top: 80px;
+	padding-top: 1px;
+	padding-bottom: 50px;
+}
+.services_manicure {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 60px;
+}
+.services_manictxt {
+	width: 380px;
+	margin-right: 30px;
+}
+.services p {
+	font-family: ptc55f;
+	font-size: 18px;
+	line-height: 1.4rem;
+	text-indent: 10px;
+	color: #000;
+	text-align: center;
+	margin-top: 5%;
+}
+h2 {
+	font-family: arial;
+	font-size: 24px;
+	font-weight: bold;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 10px;
+}
+.manic {
+	width: 320px;
+	height: 320px;
+	margin-left: 35px;
+}
+.services_pedicure {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 80px;
+}
+.pedicure {
+	width: 320px;
+	height: 320px;
+	margin-left: 35px;
+}
+.services_pedicuretxt {
+	width: 380px;
+	margin-right: 30px;
+}
+.line {
+	width: 850px;
+	margin-top: 80px;
+}
+.titlebrands {
+	font-size: 30px;
+	margin-bottom: 60px;
+}
+.brands_item {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.item img {
+	display: block;
+	margin: 0 auto;
+}
+.gallery {
+	background: #fff;
+    height: 650px;
+	margin-top: 40px;
+	padding-top: 1px;
+}
+.gallerytxt {
+	color: #000;
+	margin-bottom: 20px;
+}
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
+}
+.slider {
+  width: 950px;
+  height: 500px;
+}
+#mySwipe {
+  width: 950px;
+  height: 500px;
+  margin: 0 auto;
+}
+.butslider {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 auto;
+    width: 920px;
+    margin-top: -30%; 
+}
+.butslider a {
+	width: 50px; height: 50px;
+	border-radius: 50%;
+	background: #fff;
+	color: #fff;
+	opacity: 0.5;
+}
+.butslider a:hover {
+	background: #4a4a48;
+	cursor: pointer;
+}
+.butslider img {
+	margin: 25%;
+}
+.contact {
+	background: #eaeaea;
+	height: 340px;
+	padding-top: 1px;
+}
+.contact h4 {
+	font-family: arial;
+	font-weight: bold;
+	text-align: center;
+	font-size: 36px;
+	margin-top: 50px;
+}
+.location {
+	margin-top: 25px;
+}
+.map {
+	width: 30px;
+	height: 30px;
+	margin-right: 20px;
+}
+.location p {
+	font-family: arial;
+	font-size: 18px;
+	font-weight: bold;
+}
+.phone {
+	margin-top: 15px;
+}
+.phone img {
+	width: 30px;
+	height: 30px;
+	margin-right: 20px;
+}
+.phone p {
+	font-family: arial;
+	font-size: 18px;
+	font-weight: bold;
+}
+.mail {
+	display: inline;
+	margin-top: 45px;
+	width: 360px;
+}
+.mail p {
+	font-family: arial;
+	font-size: 18px;
+	font-weight: bold;
+}
+.mail_img {
+	width: 30px;
+	height: 30px;
+	margin-right: 20px;
+	margin-top: 15px;
+}
+.social2 {
+	width: 200px;
+	height: 0%;
+	margin-top: 35px;
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	justify-content: space-between;	
+}
+.social2 img {
+	width: 44px; height: 44px;
+}
+.footer {
+	background: #000;
+	height: 40px;
+	padding-top: 20px;
+}
+.copy {
+	color: #8a898a;
+	text-align: center;
+}
+.fixbut {
+	position: fixed; bottom: 40px; right: 20px;
+	display: block;background: #6841d7;
+	width: 50px; height: 50px;
+	opacity: 0.5;
+	border-radius: 50%; 
+}
+.fixbut img {
+	margin: 25%;
+}
+.fixbut:hover {
+	 background: #7f7f7f; 
+}
+
+/*.container {
+	border: 1px solid red;
+}
+
+ * {
+	border: 1px solid red;
+}
